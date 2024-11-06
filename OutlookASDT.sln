@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookASDT", "OutlookASDT\OutlookASDT.csproj", "{527C8676-4A0C-4C15-B4F8-3F8452563569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookASDTWeb", "OutlookASDTWeb\OutlookASDTWeb.csproj", "{2C4CE62E-D386-463B-B136-12E9E4AFC308}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{527C8676-4A0C-4C15-B4F8-3F8452563569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527C8676-4A0C-4C15-B4F8-3F8452563569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527C8676-4A0C-4C15-B4F8-3F8452563569}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{527C8676-4A0C-4C15-B4F8-3F8452563569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527C8676-4A0C-4C15-B4F8-3F8452563569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{527C8676-4A0C-4C15-B4F8-3F8452563569}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2C4CE62E-D386-463B-B136-12E9E4AFC308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4CE62E-D386-463B-B136-12E9E4AFC308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4CE62E-D386-463B-B136-12E9E4AFC308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4CE62E-D386-463B-B136-12E9E4AFC308}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6669F61-FAD3-4CCE-95A4-689BE1385DD3}
+	EndGlobalSection
+EndGlobal
