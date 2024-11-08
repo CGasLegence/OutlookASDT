@@ -13,7 +13,7 @@
   <Id>1f816749-eef1-4e63-a86a-c5eb19762aca</Id>
 
   <Version>1.0.0.0</Version>
-  <ProviderName>[Provider name]</ProviderName>
+  <ProviderName>Corey Gashlin</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
   <DisplayName DefaultValue="OutlookASDT" />
