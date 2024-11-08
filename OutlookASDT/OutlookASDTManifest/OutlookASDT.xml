@@ -19,10 +19,10 @@
   <DisplayName DefaultValue="OutlookASDT" />
   <Description DefaultValue="OutlookASDT"/>
 
-  <IconUrl DefaultValue="~remoteAppUrl/Images/icon64.png"/>
-  <HighResolutionIconUrl DefaultValue="~remoteAppUrl/Images/icon128.png"/>
+  <IconUrl DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/Images/icon64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/Images/icon80.png"/>
 
-  <SupportUrl DefaultValue="http://www.contoso.com" />
+  <SupportUrl DefaultValue="http://helpdesk.wearelegence.com.com" />
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
   <AppDomains>
     <AppDomain>AppDomain1</AppDomain>
@@ -41,7 +41,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="~remoteAppUrl/MessageRead.html"/>
+        <SourceLocation DefaultValue="https://cgaslegence.github.io/OutlookASDT/OutlookASDTWeb/MessageRead.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -108,13 +108,13 @@
 
       <Resources>
         <bt:Images>
-          <bt:Image id="icon16" DefaultValue="~remoteAppUrl/Images/icon16.png"/>
-          <bt:Image id="icon32" DefaultValue="~remoteAppUrl/Images/icon32.png"/>
-          <bt:Image id="icon80" DefaultValue="~remoteAppUrl/Images/icon80.png"/>
+          <bt:Image id="icon16" DefaultValue="https://cgaslegence.github.io/OutlookASDT/OutlookASDTWeb/Images/icon16.png"/>
+          <bt:Image id="icon32" DefaultValue="https://cgaslegence.github.io/OutlookASDT/OutlookASDTWeb/Images/icon32.png"/>
+          <bt:Image id="icon80" DefaultValue="https://cgaslegence.github.io/OutlookASDT/OutlookASDTWeb/Images/icon80.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="functionFile" DefaultValue="~remoteAppUrl/Functions/FunctionFile.html"/>
-          <bt:Url id="messageReadTaskPaneUrl" DefaultValue="~remoteAppUrl/MessageRead.html"/>
+          <bt:Url id="functionFile" DefaultValue="https://cgaslegence.github.io/OutlookASDT/OutlookASDTWeb/Functions/FunctionFile.html"/>
+          <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://cgaslegence.github.io/OutlookASDT/OutlookASDTWeb/MessageRead.html"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="groupLabel" DefaultValue="My Add-in Group"/>        
