@@ -1,20 +1,23 @@
-﻿'use strict';
+﻿function insertTextAutomatically() {
+    const item = Office.context.mailbox.item;
 
-(function () {
-
-    Office.onReady(function () {
-        // Office is ready
-        $(document).ready(function () {
-            // The document is ready
-            loadItemProps(Office.context.mailbox.item);
-        });
-    });
-
-    function loadItemProps(item) {
-        // Write message property values to the task pane
-        $('#item-id').text(item.itemId);
-        $('#item-subject').text(item.subject);
-        $('#item-internetMessageId').text(item.internetMessageId);
-        $('#item-from').html(item.from.displayName + " &lt;" + item.from.emailAddress + "&gt;");
+    // Check if the item is in compose mode
+    if (item.itemType === Office.MailboxEnums.ItemType.Message) {
+        item.body.setSelectedDataAsync(
+            "This is a test",
+            { coercionType: Office.CoercionType.Text },
+            (asyncResult) => {
+                if (asyncResult.status === Office.AsyncResultStatus.Failed) {
+                    console.error("Error inserting text:", asyncResult.error.message);
+                }
+            }
+        );
     }
-})();
+}
+
+// Ensure the function runs when the add-in is loaded
+Office.onReady(() => {
+    if (Office.context.mailbox.item) {
+        insertTextAutomatically();
+    }
+});
