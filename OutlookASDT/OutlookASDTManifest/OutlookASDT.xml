@@ -9,26 +9,25 @@
           xsi:type="MailApp">
 
 
-	<!-- IMPORTANT! Id must be unique for your add-in, if you reuse this manifest ensure that you change this id to a new GUID. -->
 	<Id>147a86a9-99d0-49cd-acb2-9664b9560fc9</Id>
 
 	<Version>1.0.0.0</Version>
-	<ProviderName>[Provider name]</ProviderName>
+	<ProviderName>Corey Gashlin</ProviderName>
 	<DefaultLocale>en-US</DefaultLocale>
 	<!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
 	<DisplayName DefaultValue="LegenceASDT" />
 	<Description DefaultValue="AutoApplies Legence Approved Signautres to Outlook"/>
 
-	<IconUrl DefaultValue="~remoteAppUrl/Images/icon64.png"/>
-	<HighResolutionIconUrl DefaultValue="~remoteAppUrl/Images/icon128.png"/>
+	<IconUrl DefaultValue="https://github.com/CGasLegence/OutlookASDT/tree/master/OutlookASDTWeb/Images/icon64.png"/>
+	<HighResolutionIconUrl DefaultValue="https://github.com/CGasLegence/OutlookASDT/tree/master/OutlookASDTWeb/Images/icon128.png"/>
 
-	<SupportUrl DefaultValue="http://www.contoso.com" />
+	<SupportUrl DefaultValue="https://helpdesk.wearelegence.com" />
 	<!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
-	<AppDomains>
+	<!--<AppDomains>
 		<AppDomain>AppDomain1</AppDomain>
 		<AppDomain>AppDomain2</AppDomain>
 		<AppDomain>AppDomain3</AppDomain>
-	</AppDomains>
+	</AppDomains>-->
 
 	<Hosts>
 		<Host Name="Mailbox" />
@@ -41,7 +40,7 @@
 	<FormSettings>
 		<Form xsi:type="ItemRead">
 			<DesktopSettings>
-				<SourceLocation DefaultValue="~remoteAppUrl/MessageRead.html"/>
+				<SourceLocation DefaultValue="https://github.com/CGasLegence/OutlookASDT/tree/master/OutlookASDTWeb/MessageRead.html"/>
 				<RequestedHeight>250</RequestedHeight>
 			</DesktopSettings>
 		</Form>
@@ -126,9 +125,9 @@
 			</Hosts>
 			<Resources>
 				<bt:Images>
-					<bt:Image id="Icon.16x16" DefaultValue="https://localhost:3000/assets/icon-16.png"/>
-					<bt:Image id="Icon.32x32" DefaultValue="https://localhost:3000/assets/icon-32.png"/>
-					<bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/icon-80.png"/>
+					<bt:Image id="Icon.16x16" DefaultValue="https://github.com/CGasLegence/OutlookASDT/tree/master/OutlookASDTWeb/Images/icon-16.png"/>
+					<bt:Image id="Icon.32x32" DefaultValue="https://github.com/CGasLegence/OutlookASDT/tree/master/OutlookASDTWeb/Images/icon-32.png"/>
+					<bt:Image id="Icon.80x80" DefaultValue="https://github.com/CGasLegence/OutlookASDT/tree/master/OutlookASDTWeb/Images/icon-80.png"/>
 				</bt:Images>
 				<bt:Urls>
 					<bt:Url id="Commands.Url" DefaultValue="https://localhost:3000/commands.html" />
@@ -138,7 +137,7 @@
 					<bt:Url id="JSRuntime.Url" DefaultValue="https://localhost:3000/launchevent.js" />
 				</bt:Urls>
 				<bt:ShortStrings>
-					<bt:String id="GroupLabel" DefaultValue="Contoso Add-in"/>
+					<bt:String id="GroupLabel" DefaultValue="LegenceASDT"/>
 					<bt:String id="TaskpaneButton.Label" DefaultValue="Show Taskpane"/>
 					<bt:String id="ActionButton.Label" DefaultValue="Perform an action"/>
 				</bt:ShortStrings>
