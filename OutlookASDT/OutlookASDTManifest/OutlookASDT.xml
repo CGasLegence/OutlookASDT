@@ -18,8 +18,8 @@
 	<DisplayName DefaultValue="LegenceASDT" />
 	<Description DefaultValue="AutoApplies Legence Approved Signautres to Outlook"/>
 
-	<IconUrl DefaultValue="https://github.com/CGasLegence/OutlookASDT/tree/master/OutlookASDTWeb/Images/icon64.png"/>
-	<HighResolutionIconUrl DefaultValue="https://github.com/CGasLegence/OutlookASDT/tree/master/OutlookASDTWeb/Images/icon128.png"/>
+	<IconUrl DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/Images/icon64.png"/>
+	<HighResolutionIconUrl DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/Images/icon128.png"/>
 
 	<SupportUrl DefaultValue="https://helpdesk.wearelegence.com" />
 	<!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
@@ -40,7 +40,7 @@
 	<FormSettings>
 		<Form xsi:type="ItemRead">
 			<DesktopSettings>
-				<SourceLocation DefaultValue="https://github.com/CGasLegence/OutlookASDT/tree/master/OutlookASDTWeb/MessageRead.html"/>
+				<SourceLocation DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/MessageRead.html"/>
 				<RequestedHeight>250</RequestedHeight>
 			</DesktopSettings>
 		</Form>
@@ -130,11 +130,11 @@
 					<bt:Image id="Icon.80x80" DefaultValue="https://github.com/CGasLegence/OutlookASDT/tree/master/OutlookASDTWeb/Images/icon-80.png"/>
 				</bt:Images>
 				<bt:Urls>
-					<bt:Url id="Commands.Url" DefaultValue="https://localhost:3000/commands.html" />
-					<bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/taskpane.html" />
-					<bt:Url id="WebViewRuntime.Url" DefaultValue="https://localhost:3000/commands.html" />
+					<bt:Url id="Commands.Url" DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/commands.html" />
+					<bt:Url id="Taskpane.Url" DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/taskpane.html" />
+					<bt:Url id="WebViewRuntime.Url" DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/commands.html" />
 					<!-- Entry needed for classic Outlook on Windows. -->
-					<bt:Url id="JSRuntime.Url" DefaultValue="https://localhost:3000/launchevent.js" />
+					<bt:Url id="JSRuntime.Url" DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/launchevent.js" />
 				</bt:Urls>
 				<bt:ShortStrings>
 					<bt:String id="GroupLabel" DefaultValue="LegenceASDT"/>
