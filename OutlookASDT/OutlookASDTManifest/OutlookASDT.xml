@@ -130,7 +130,7 @@
 					<bt:Image id="Icon.80x80" DefaultValue="https://github.com/CGasLegence/OutlookASDT/tree/master/OutlookASDTWeb/Images/icon-80.png"/>
 				</bt:Images>
 				<bt:Urls>
-					<bt:Url id="Commands.Url" DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/commands.html" />
+					<bt:Url id="commands.Url" DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/commands.html" />
 					<bt:Url id="Taskpane.Url" DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/taskpane.html" />
 					<bt:Url id="WebViewRuntime.Url" DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/commands.html" />
 					<!-- Entry needed for classic Outlook on Windows. -->
