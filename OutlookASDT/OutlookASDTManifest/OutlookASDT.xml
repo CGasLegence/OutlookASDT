@@ -77,24 +77,12 @@
 			</Hosts>
 
 			<Resources>
-				<bt:Images>
-					<bt:Image id="icon16" DefaultValue="~remoteAppUrl/Images/icon16.png"/>
-					<bt:Image id="icon32" DefaultValue="~remoteAppUrl/Images/icon32.png"/>
-					<bt:Image id="icon80" DefaultValue="~remoteAppUrl/Images/icon80.png"/>
-				</bt:Images>
+				
 				<bt:Urls>
-					<bt:Url id="functionFile" DefaultValue="~remoteAppUrl/Functions/FunctionFile.html"/>
-					<bt:Url id="messageReadTaskPaneUrl" DefaultValue="~remoteAppUrl/MessageRead.html"/>
+					<bt:Url id="functionFile" DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/Functions/FunctionFile.html"/>
+					<bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/MessageRead.htmll"/>
 				</bt:Urls>
-				<bt:ShortStrings>
-					<bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
-					<bt:String id="taskPaneButtonLabel" DefaultValue="Show task pane"/>
-					<bt:String id="actionButtonLabel" DefaultValue="Run Function"/>
-				</bt:ShortStrings>
-				<bt:LongStrings>
-					<bt:String id="taskPaneButtonDescription" DefaultValue="Opens a task pane."/>
-					<bt:String id="actionButtonDescription" DefaultValue="Click to run a sample function."/>
-				</bt:LongStrings>
+				
 			</Resources>
 		</VersionOverrides>
 	</VersionOverrides>
