@@ -70,7 +70,7 @@
 						</Runtime>
 					</Runtimes>
 					<DesktopFormFactor>
-						<FunctionFile resid="Commands.Url" />
+						<FunctionFile resid="commands.Url" />
 						<ExtensionPoint xsi:type="MessageReadCommandSurface">
 							<OfficeTab id="TabDefault">
 								<Group id="msgReadGroup">
