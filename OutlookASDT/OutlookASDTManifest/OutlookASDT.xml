@@ -19,8 +19,6 @@
 	<DisplayName DefaultValue="OutlookWebAddIn1" />
 	<Description DefaultValue="OutlookWebAddIn1"/>
 
-	<IconUrl DefaultValue="~remoteAppUrl/Images/icon64.png"/>
-	<HighResolutionIconUrl DefaultValue="~remoteAppUrl/Images/icon128.png"/>
 
 	<SupportUrl DefaultValue="http://www.contoso.com" />
 	<!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
