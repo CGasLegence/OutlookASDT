@@ -41,7 +41,7 @@
 	<FormSettings>
 		<Form xsi:type="ItemRead">
 			<DesktopSettings>
-				<SourceLocation DefaultValue="~remoteAppUrl/MessageRead.html"/>
+				<SourceLocation DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/MessageRead.htmll"/>
 				<RequestedHeight>250</RequestedHeight>
 			</DesktopSettings>
 		</Form>
@@ -80,7 +80,7 @@
 				
 				<bt:Urls>
 					<bt:Url id="functionFile" DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/Functions/FunctionFile.html"/>
-					<bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/MessageRead.htmll"/>
+					<bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/MessageRead.html"/>
 				</bt:Urls>
 				
 			</Resources>
