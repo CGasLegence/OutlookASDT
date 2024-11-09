@@ -41,7 +41,7 @@
 	<FormSettings>
 		<Form xsi:type="ItemRead">
 			<DesktopSettings>
-				<SourceLocation DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/MessageRead.htmll"/>
+				<SourceLocation DefaultValue="https://cgaslegence.github.io/outlookASDT/OutlookASDTWeb/MessageRead.html"/>
 				<RequestedHeight>250</RequestedHeight>
 			</DesktopSettings>
 		</Form>
