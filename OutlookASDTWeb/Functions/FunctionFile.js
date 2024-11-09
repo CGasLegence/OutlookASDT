@@ -1,6 +1,6 @@
 ﻿// Loads the Office.js library.
 Office.onReady();
-function insertTextAutomatically() {
+function checkSignature() {
     const item = Office.context.mailbox.item;
 
     // Check if the item is in compose mode
